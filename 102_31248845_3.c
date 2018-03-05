@@ -36,7 +36,6 @@ int main(int argc, char *argv[])
 {
     
     int opt, ret, i;
-    void* retValue;
     Sum args;
     
     pthread_t threads[numOfThreads];
